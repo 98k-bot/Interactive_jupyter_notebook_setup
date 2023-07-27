@@ -1,0 +1,67 @@
+
+MacOS or linux terminal command to create your ssh tunnel:
+ssh -N -L 9317:esplhpc-cp055:9317 zhanh@esplhpccompbio-lv01
+
+Use a Browser on your local machine to go to:
+localhost:9317  (prefix w/ https:// if using password)
+
+[W 2023-07-26 16:33:28.672 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-26 16:33:28.672 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-26 16:33:28.672 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-07-26 16:33:28.672 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-07-26 16:33:28.677 LabApp] JupyterLab extension loaded from /common/zhanh/anaconda3/lib/python3.9/site-packages/jupyterlab
+[I 2023-07-26 16:33:28.677 LabApp] JupyterLab application directory is /common/zhanh/anaconda3/share/jupyter/lab
+[I 16:33:28.681 NotebookApp] Serving notebooks from local directory: /common/zhanh/Jupyter_Scripts
+[I 16:33:28.681 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 16:33:28.681 NotebookApp] http://esplhpc-cp055:9317/?token=945d0adabe1d3318d05d502b51ca4b5a009f2fb2b7d1d7cf
+[I 16:33:28.681 NotebookApp]  or http://127.0.0.1:9317/?token=945d0adabe1d3318d05d502b51ca4b5a009f2fb2b7d1d7cf
+[I 16:33:28.681 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 16:33:28.691 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/zhanh/.local/share/jupyter/runtime/nbserver-1115438-open.html
+    Or copy and paste one of these URLs:
+        http://esplhpc-cp055:9317/?token=945d0adabe1d3318d05d502b51ca4b5a009f2fb2b7d1d7cf
+     or http://127.0.0.1:9317/?token=945d0adabe1d3318d05d502b51ca4b5a009f2fb2b7d1d7cf
+[I 16:36:14.712 NotebookApp] 302 GET /?token=945d0adabe1d3318d05d502b51ca4b5a009f2fb2b7d1d7cf (172.21.0.12) 0.560000ms
+[I 16:58:05.699 NotebookApp] Creating new notebook in 
+[I 16:58:09.634 NotebookApp] Kernel started: e094282e-cc20-4f75-aeb6-24afefa90a12, name: python3
+[I 16:58:56.759 NotebookApp] Starting buffering for e094282e-cc20-4f75-aeb6-24afefa90a12:5a00e31e28e94fafb624bb69002aa325
+[I 16:58:56.769 NotebookApp] Kernel shutdown: e094282e-cc20-4f75-aeb6-24afefa90a12
+[I 16:58:56.942 NotebookApp] Kernel started: 882a27fa-c941-45ed-91b7-a584cd2b497d, name: dna_copy
+[I 17:00:09.589 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+/common/zhanh/anaconda3/lib/python3.9/site-packages/nbformat/__init__.py:128: MissingIDFieldWarning: Code cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  validate(nb)
+/common/zhanh/anaconda3/lib/python3.9/site-packages/notebook/services/contents/manager.py:353: MissingIDFieldWarning: Code cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  validate_nb(model['content'])
+[I 17:02:09.686 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 17:21:33.693 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 17:23:33.677 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 17:25:33.686 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 17:27:33.735 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 17:29:33.689 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 17:31:33.683 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 17:33:33.935 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 17:39:35.983 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 17:41:35.986 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 17:43:35.982 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 17:45:35.979 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 17:47:35.986 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 17:49:35.989 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 17:51:35.985 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 17:55:35.995 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 17:57:36.009 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 17:59:36.000 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 18:03:36.019 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 18:05:36.023 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 18:07:36.119 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 18:09:36.069 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 18:13:36.031 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 18:15:36.037 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 18:17:36.143 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 18:19:36.025 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 18:21:36.119 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 18:23:36.044 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 18:25:36.062 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 18:27:36.126 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
+[I 18:31:36.057 NotebookApp] Saving file at /DNA_BERT_Test.ipynb
